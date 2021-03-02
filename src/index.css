@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+div {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.area-box {
+  height: 400px;
+  overflow: auto;
+  padding: 0.5rem 0;
+}
+
+.list .row .pr-3 button,
+.list .row .pr-3 span {
+  visibility: hidden;
+}
+
+.list:hover .row .pr-3 button,
+.list:hover .row .pr-3 span {
+  visibility: visible;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+table tbody tr td{
+  padding: 0 .5rem;
+  border: 1px solid #343a40;
+  text-align: center;
+}
